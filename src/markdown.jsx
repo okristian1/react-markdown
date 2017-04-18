@@ -18,10 +18,11 @@ class Textform extends Component {
       <div>
       <form onChange={this.handleChange}>
       <label>
+
       <textarea value={this.state.value} onChange={this.handleChange} />
       </label>
       </form>
-      <div dangerouslySetInnerHTML={{ __html: marked(this.state.value)}} />
+      <div className="preview" dangerouslySetInnerHTML={{ __html: marked(this.state.value)}} />
       </div>
     );
   }

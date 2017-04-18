@@ -18,6 +18,21 @@
   font-size: large;
 }
 
+textarea {
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.preview {
+  text-align: left;
+  float:left;
+  margin-left:100px;
+
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
